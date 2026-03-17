@@ -1,0 +1,38 @@
+server:
+    bind:
+        host: 0.0.0.0
+        port: 80
+    url: http://localhost:5000
+    mimetype: application/json; charset=UTF-8
+    encoding: utf-8
+    language: en-US
+
+logging:
+    level: INFO
+    logfile: /tmp/pygeoapi.log
+
+metadata:
+    identification:
+        title: OGC MCP Server
+        description: GSoC 52North MCP Challenge
+        keywords:
+            - geospatial
+            - processes
+            - mcp
+        terms_of_service: http://example.com
+        url: http://example.com
+    license:
+        name: Apache 2.0
+        url: http://www.apache.org/licenses/LICENSE-2.0
+    contact:
+        name: Future Contributor
+        url: http://example.com
+    provider:
+        name: 52North Community
+        url: https://52north.org
+
+resources:
+    hello-world:
+        type: process
+        processor:
+            name: HelloWorld
