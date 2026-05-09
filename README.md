@@ -1,4 +1,4 @@
-# GSoC 2026: MCP for OGC APIs - Code Challenge
+# GSoC 2026: MCP for OGC APIs - Code Challenge : 52°North
 **Applicant:** sk ali dara
 **Status:** Successfully Established & Verified
 
